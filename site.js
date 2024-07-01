@@ -12,7 +12,7 @@ window.onload = function() {
     // Display the formatted UTC time
     document.getElementById('currentTime').innerText = utcTime;
 
-    // Display the current day of the week in UTC
+    // Display the current day of the week
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const currentDay = days[now.getUTCDay()];
     document.getElementById('currentDay').innerText = currentDay;
